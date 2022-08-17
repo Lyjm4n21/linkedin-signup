@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Cat Images</title>
+  <style>
+p {
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.email {
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+.input {
+    height: 20px;
+    width: 360px;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 16px;
+}
+.Privacy {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.agree {
+    background-color: rgb(18, 110, 248);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 370px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+  </style>
+</head>
+<body>
+  <p class="email">Email</p>
+  <input class="input" type="email" >
+  <p class="Privacy">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+  <button class="agree">Agree & Join</button>
+</body>
+</html>
